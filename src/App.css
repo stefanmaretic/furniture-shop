@@ -4,6 +4,15 @@
   margin: 0 16px;
 }
 
+.primary-btn {
+  padding: 6px 10px;
+  background-color: lightblue;
+  color: black;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
 @media (min-width: 640px) {
   .container {
     margin: 0 auto;

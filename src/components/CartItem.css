@@ -1,0 +1,35 @@
+.cart-item-container {
+  display: grid;
+  grid-template-columns: minmax(auto, 1fr);
+  gap: 16px;
+}
+
+.cart-item-image-container {
+}
+
+.cart-item-image {
+}
+
+.cart-item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cart-item-title {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.cart-item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: gray;
+}
+
+@media (min-width: 640px) {
+  .cart-item-container {
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
+  }
+}

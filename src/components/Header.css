@@ -1,0 +1,7 @@
+.navbar {
+  display: flex;
+}
+
+.navbar-right {
+  margin-left: auto;
+}
